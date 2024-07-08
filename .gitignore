@@ -1,0 +1,175 @@
+# Byte-compiled / optimized / DLL files #
+#########################################
+__pycache__/
+*.py[cod]
+*.com
+*.class
+*.dll
+*.exe
+*.o
+
+# C extensions #
+################
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Distribution / packaging #
+############################
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller #
+###############
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs #
+##################
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports #
+################################
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations #
+################
+*.mo
+*.pot
+
+# Django stuff: #
+#################
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff: #
+################
+instance/
+.webassets-cache
+
+# Sphinx documentation #
+#######################
+docs/_build/
+
+# PyBuilder #
+#############
+target/
+
+# DotEnv configuration #
+########################
+.env
+
+# Database #
+############
+*.db
+*.rdb
+*.sql
+*.sqlite
+
+# Pycharm #
+###########
+.idea
+
+# VS Code #
+###########
+.vscode/
+
+# Spyder #
+##########
+.spyproject/
+
+# Jupyter NB Checkpoints #
+##########################
+.ipynb_checkpoints/
+.virtual_documents/
+
+# exclude data from source control by default #
+###############################################
+/data/
+
+# MacOS - specific storage files #
+#################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# MacOS - Files that might appear in the root of a volume #
+#########################################################
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# MacOS - Directories potentially created on remote AFP share
+#############################################################
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# MacOS Patch #
+###############
+# iCloud generated files
+*.icloud
+
+# vim #
+#######
+*.swp
+*.swo
+
+# Mypy cache #
+##############
+.mypy_cache/
