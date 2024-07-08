@@ -128,8 +128,9 @@ target/
 
 # exclude data from source control by default #
 ###############################################
-/data/
-/reports/
+# Nota: Habilitar para un proyecto las siguintes opciones:
+#/data/
+#/reports/
 
 # MacOS - specific storage files #
 #################################
